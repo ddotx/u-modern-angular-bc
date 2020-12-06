@@ -21,7 +21,10 @@
               "apps/emailclient/src/favicon.ico",
               "apps/emailclient/src/assets"
             ],
-            "styles": ["apps/emailclient/src/styles.css"],
+            "styles": [
+              "semantic-ui-css/semantic.css",
+              "apps/emailclient/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
