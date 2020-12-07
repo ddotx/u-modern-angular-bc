@@ -3,7 +3,12 @@
   "projects": {
     "emailclient": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "css",
+          "skipTests": true
+        }
+      },
       "root": "apps/emailclient",
       "sourceRoot": "apps/emailclient/src",
       "prefix": "u-modern-angular-bc",
